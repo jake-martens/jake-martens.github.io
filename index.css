@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&display=swap');
+body {
+    background-color: rgb(0, 166, 255);
+    font-family: Dosis;
+    text-align: center;
+}
+
+h1 {
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 72px;
+}
+
+.highlighted {
+    background-color: rgb(255, 255, 54);
+    display:inline;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(255, 255, 54);
+    display: inline;
+}
