@@ -1,16 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Abel&family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,800;1,6..72,300&display=swap');
 body {
     background-color: rgb(255, 255, 255);
-    font-family: Abel;
+    font-family: Newsreader;
     text-align: center;
     margin-top:100px;
 }
 
 h1 {
-    font-family: Nabla;
-    color: white;
     font-size: 72px;
+    font-weight: 800;
     margin-bottom: 5px;
+}
+
+h2 {
+    font-style: italic;
+    /* font-weight: 300; */
+}
+
+p {
+    font-weight: 500;
 }
 
 .highlighted {
@@ -19,7 +27,7 @@ h1 {
 }
 
 a {
-    color: white;
+    color: #0000EE
 }
 
 a:hover {
