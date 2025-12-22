@@ -21,6 +21,13 @@ p {
     font-weight: 500;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height:auto;
+}
+
 .highlighted {
     background-color: rgb(255, 255, 54);
     display:inline;
